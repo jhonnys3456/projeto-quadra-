@@ -34,16 +34,19 @@ export default function PublicLayout({ state }: { state: AppState }) {
             <div className="flex items-center space-x-5">
               {/* Espaço para Logo da Escola Revelação */}
               <div className="flex items-center space-x-3">
-                <div className="h-14 w-14 bg-slate-50 border border-slate-100 rounded-lg flex items-center justify-center overflow-hidden">
-                  <span className="text-[8px] font-black text-slate-300 text-center leading-none uppercase px-1">Logo<br/>Escola<br/>Revelação</span>
+                <div className="h-14 w-14 bg-white border-2 border-primary rounded-lg flex items-center justify-center overflow-hidden shadow-sm">
+                  <div className="flex flex-col items-center">
+                    <span className="text-[7px] font-black text-primary leading-none uppercase">Escola</span>
+                    <span className="text-[9px] font-black text-accent leading-none uppercase">Revelação</span>
+                  </div>
                 </div>
                 <div className="h-10 w-px bg-slate-200" />
                 <Link to="/" className="flex flex-col">
                   <span className="text-sm font-black tracking-tight text-primary uppercase leading-tight">
-                    Revelação
+                    Centro Esportivo
                   </span>
                   <span className="text-[9px] font-bold text-slate-400 uppercase tracking-widest leading-none">
-                    Centro Esportivo
+                    & Espaço de Eventos
                   </span>
                 </Link>
               </div>
@@ -144,7 +147,7 @@ export default function PublicLayout({ state }: { state: AppState }) {
                 </div>
               </div>
               <p className="max-w-xs text-xs font-medium text-green-100 leading-relaxed uppercase tracking-tight">
-                O melhor ecossistema para esportes e ventos da região. Infraestrutura integrada à excelência educacional.
+                O melhor ecossistema para esportes e eventos da região. Infraestrutura integrada à excelência educacional.
               </p>
               <div className="mt-10 flex space-x-6">
                 <a href="#" className="p-3 bg-white/10 rounded-xl hover:bg-accent transition-all">

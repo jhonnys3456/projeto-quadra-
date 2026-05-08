@@ -22,21 +22,21 @@ async function startServer() {
   } catch {
     const initialDB = {
       site: {
-        name: "Arena Master",
+        name: "Centro Esportivo Revelação",
         hero: {
-          title: "Sua Arena de Esportes e Eventos",
-          subtitle: "O melhor espaço para seu futebol e sua festa.",
-          buttonTextText: "Fazer Reserva",
-          buttonLink: "/contato",
-          gradient: "from-blue-600 to-indigo-900"
+          title: "Centro Esportivo Revelação / Espaço de Eventos",
+          subtitle: "O melhor ecossistema para sua prática esportiva e celebração.",
+          buttonText: "Nossa Estrutura",
+          buttonLink: "/estrutura",
+          gradient: "from-green-700 to-green-900"
         },
         banner: {
           active: true,
-          text: "🎉 Promoção de inauguração: 20% de desconto nos horários matutinos!"
+          text: "🎉 Promoção de inauguração: Entre em contato para condições especiais!"
         },
         pages: [
-          { id: 'home', title: 'Início', content: {} },
-          { id: 'sobre', title: 'Sobre', content: 'Nossa arena foi fundada com o objetivo de...' },
+          { id: 'home', title: 'Início', content: {}, order: 1 },
+          { id: 'sobre', title: 'Sobre', content: 'Desde nossa fundação, estamos comprometidos em fornecer um ambiente esportivo da mais alta qualidade para atletas de todos os níveis.', order: 2 },
         ]
       },
       agenda: [],

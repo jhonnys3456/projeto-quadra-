@@ -3,7 +3,7 @@ export interface SiteConfig {
   hero: {
     title: string;
     subtitle: string;
-    buttonTextText: string;
+    buttonText: string;
     buttonLink: string;
     gradient: string;
     image?: string;
@@ -19,7 +19,7 @@ export interface Page {
   id: string;
   title: string;
   content: any;
-  order: number;
+  order?: number;
 }
 
 export interface Reservation {

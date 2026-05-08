@@ -61,7 +61,7 @@ export default function Contact({ state }: { state: AppState | null }) {
               </div>
               <div>
                 <h3 className="text-xs font-black uppercase tracking-widest text-slate-400 mb-2">Vetor de Localização</h3>
-                <p className="text-sm font-black text-slate-800 uppercase tracking-tight">Rua da Revelação, 123 - Centro Esportivo</p>
+                <p className="text-sm font-black text-slate-800 uppercase tracking-tight">Rua das Amoreiras, 450 - Setor Industrial, CE</p>
               </div>
             </motion.div>
 
@@ -77,7 +77,7 @@ export default function Contact({ state }: { state: AppState | null }) {
               </div>
               <div>
                 <h3 className="text-xs font-black uppercase tracking-widest text-slate-400 mb-2">Protocolos de Voz</h3>
-                <p className="text-sm font-black text-slate-800 uppercase tracking-tight">+55 [00] 00000-0000</p>
+                <p className="text-sm font-black text-slate-800 uppercase tracking-tight">+55 [11] 99999-9999</p>
               </div>
             </motion.div>
 

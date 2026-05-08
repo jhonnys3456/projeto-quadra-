@@ -31,8 +31,9 @@ export default function Home({ state }: { state: AppState }) {
               transition={{ duration: 0.8 }}
             >
               <h1 className="text-6xl font-black tracking-tighter text-slate-800 sm:text-7xl lg:text-8xl leading-[0.9] uppercase">
-                 <span className="text-primary italic">Revelação</span> <br />
-                 Esportivo
+                 <span className="text-primary italic">Centro</span> <br />
+                 Esportivo <br />
+                 <span className="text-accent underline decoration-8 decoration-accent/20">Revelação</span>
               </h1>
               
               <div className="w-24 h-2 bg-accent mt-8 mb-10" />

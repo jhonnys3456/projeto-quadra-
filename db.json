@@ -1,0 +1,75 @@
+{
+  "site": {
+    "name": "Centro Esportivo Revelação",
+    "hero": {
+      "title": "Centro Esportivo Revelação / Espaço de Eventos",
+      "subtitle": "O melhor ecossistema para sua prática esportiva e celebração.",
+      "buttonText": "Nossa Estrutura",
+      "buttonLink": "/estrutura",
+      "gradient": "from-green-700 to-green-900"
+    },
+    "banner": {
+      "active": true,
+      "text": "🎉 Promoção de inauguração: Entre em contato para condições especiais!"
+    },
+    "pages": [
+      {
+        "id": "home",
+        "title": "Início",
+        "content": {},
+        "order": 1
+      },
+      {
+        "id": "sobre",
+        "title": "Sobre",
+        "content": "Desde nossa fundação, estamos comprometidos em fornecer um ambiente esportivo da mais alta qualidade para atletas de todos os níveis.",
+        "order": 2
+      }
+    ]
+  },
+  "agenda": [],
+  "customers": [],
+  "finances": [],
+  "rentals": [
+    {
+      "id": "1",
+      "name": "Quadra Society",
+      "price": 150,
+      "description": "Aluguel por hora"
+    },
+    {
+      "id": "2",
+      "name": "Espaço Eventos",
+      "price": 800,
+      "description": "Diária"
+    }
+  ],
+  "history": [],
+  "trash": [],
+  "widgets": [
+    {
+      "id": "1",
+      "type": "revenue",
+      "title": "Fluxo Financeiro",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "w": 2,
+        "h": 1
+      },
+      "config": {}
+    },
+    {
+      "id": "2",
+      "type": "reservations",
+      "title": "Últimas Reservas",
+      "position": {
+        "x": 2,
+        "y": 0,
+        "w": 1,
+        "h": 1
+      },
+      "config": {}
+    }
+  ]
+}
